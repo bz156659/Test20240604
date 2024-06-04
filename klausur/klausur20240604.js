@@ -7,6 +7,10 @@ console.log("Klausur 20240604")
 console.log("Aufgabe 1")
 // 1a) Berechnen Sie das Volumen eines Würfels mit Hilfe der Grundrechenoperatoren (+ , - , * , /) , bei dem die Kantenlänge mit der Varablen a festgelegt wird.
 
+let a = 5; 
+let Volumen = a*a*a;
+
+console.log('Das Volumen des Würfels beträgt:  ' + Volumen); 
 
 
 // 1b) - Nur Klausurschreiber
@@ -20,12 +24,22 @@ console.log("Aufgabe 2")
 // Umfang = 2 * pi * Radius
 // Durchmesser = 2 * Radius
 
+let radius = 5; 
+let pi = Math.PI; 
+let Flächeninhalt = pi * radius * radius; 
+let Umfang = 2 * pi * radius; 
+let Durchmesser = 2 * radius;
 
+console.log('Flächeninhalt des kreises: ' + Flächeninhalt);
+console.log('Umfang des kreises: ' + Umfang);
+console.log('Durchmesser des Kreises: ' + Durchmesser);
 
 // 2a)
-// Testschreiber deklarieren pi und initialisieren pi mit dem Wert 3.14.
+// Testschreiber deklarieren pi und initialisieren pi mit dem Wert 3.14
 
+let PI = 3.14; 
 
+console.log(PI);
 
 // Klausurschreiber deklarieren pi und initialisieren pi mit dem Wert aus der bekannten Bibliothek namens Math. Geben Sie Math.PI an, um den Wert von Pi in einer Variablen speichern zu können.
 
@@ -35,21 +49,20 @@ console.log("Aufgabe 2")
 // 2b)
 // Berechnen Sie Flächeninhalt.
 
-
-
+console.log(' Flächeninhalt' + PI * radius * radius);
 
 
 // 2c)
 // Berechnen Sie den Umfang
 
 
-
+console.log('Umfang' + 2 * PI + radius);
 
 
 // 2d)
 // Berechnen Sie den Durchmesser
 
-
+console.log('Durchmesser' + 2 * radius); 
 
 
 
@@ -64,9 +77,17 @@ console.log("Aufgabe 3")
 
 // Der Listenpreis einer Papierlieferung beträgt 16780,00 EUR; Rabatt 5 %, Mehrwertsteuer 19 %, Skonto 1,5 %.
 
+ let listenpreis = 16780.00; 
+ let rabattProzentsatz = 5;
+ let MehrwertsteuerProzentsatz = 19; 
+ let Skonto = 1.5; 
+ 
+
 
 // 3a)
 // Berechnen Sie den Rabatt in einer sprechenden Variablen. Geben Sie einen Anwortsatz auf der Konsole aus.
+
+let rabatt = (listenpreis * rabattProzentsatz) / 100; 
 
 
 
@@ -106,10 +127,17 @@ console.log("Aufgabe 4")
 // p = Zinssatz (in Prozent)
 // t = Verzinsungszeit (in Tagen)
 
+
+let Zinsbetrag = 60;
+let Kapital = 5000; 
+let Zinssatz = 10;
+let Verzinsungszeit = 6; 
+
 // 4a)
 // Ein Kunde nimmst bei einer Bank einen Kredit über 5000 € auf. Die Laufzeit beträgt 6 Monate bei einem Zinssatz von 10%. Berechne die Zinszahlungen, die in diesem Zeitraum anfallen. Arbeiten Sie mit Variablen. Antwortsatz!
 
-
+console.log('Zinssatz' * Verzinsungszeit  ); 
+console.log('')
 
 
 
